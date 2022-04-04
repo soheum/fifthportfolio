@@ -54,11 +54,11 @@ function WorkContent(){
             </Link>
          </div>
          <div className="work3">
-            <Link to={{ pathname: "https://glacier-sunstone-c57.notion.site/Master-s-Thesis-255a004a1e264f5eaa231eff01e8c05f" }} target="_blank" className="nav-link" onClick={closeMobileMenu}>
+         <a href="https://drive.google.com/file/d/15sId83Mw8XTa12FsdUuRv0LC3FlIbGMY/view?usp=sharing">
                 <span className="span_jobtitle">AUTONOMY / TRUST IN SELF-DRIVING<br /></span>
                 <span className="span_job">master thesis in collab with Volvo Cars</span>
                 <img className="work_img_3" src={"./images/about/work_thesis.jpg"} />
-            </Link>
+                </a>  
          </div>
         </div>
 
@@ -111,20 +111,20 @@ function WorkContent(){
             </Link>
          </div>
          <div className="work2 ">
-            <Link to= {{pathname: "https://www.trapeza.finance/"}} target="_blank" className="nav-link" onClick={closeMobileMenu}>
+         <a href="https://www.trapeza.finance/">
                <div className="span_title_2">
                     <span className="span_jobtitle">TRAPEZA<br /></span>
                     <span className="span_job">branding for Olympus DAO DeFi platform</span>
                 </div>
                 <img className="work_img_2" src={"./images/about/work_trapeza.jpg"} />
-            </Link>
+        </a>
          </div>
          <div className="work3">
-            <Link to={{pathname: "https://qcells.com/ane/stay-in-the-loop/eco-charged-community/stories"}} target="_blank" className="nav-link" onClick={closeMobileMenu}>
+         <a href="https://qcells.com/ane/stay-in-the-loop/eco-charged-community/stories">
                 <span className="span_jobtitle">Q-CELLS GLOBAL WEBSITE<br /></span>
                 <span className="span_job">video filming and content creation</span>
                 <img className="work_img_3" src={"./images/about/work_qcells.jpg"} />
-            </Link>
+                </a>
          </div>
         </div>
 

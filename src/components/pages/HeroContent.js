@@ -15,42 +15,67 @@ function HeroContent({
            <div className="content">
                 <div className="empty"></div>
                  <div className="textcontent">
+                    <span className="span_semititle2">HELLO! MY NAME IS SOHEUM</span> <br />
+                    <span className="span_italics">try pronouncing as So.... hmmmmm....</span> <br /> <br />
                     <span className="span_p">I love to</span><span className="span_bold"> design with creativity </span><span className="span_p">and</span><span className="span_bold"> play with code.</span> <br /> <span className="span_p">I like to </span><span className="span_bold">visualize in graphics, construct with code and prototype with programs.</span> <br /> <span className="span_p">How? Just take a look at my website that I created myself.</span> <br /> <br />
-                    <span className="span_p">Born and raised in Seoul, lived in Umea, Helsinki, Paris, Geneva and Amsterdam. <br /> Now writing my </span><span className="span_bold"> master's thesis about</span><span className="span_red"> trust in autonomous vehicles</span><span className="span_bold"> at Umea Institute of Design</span>
+                    <span className="span_p">Born and raised in Seoul, lived in Umea, Helsinki, Paris, Geneva and Amsterdam. <br />I love </span><span className="span_bold">morning yogas, freshly brewed filter coffee and animals! <br /></span><span className="span_p">I also have a huge obsession in designer chairs and interior design.</span><br />
+                    <a href="https://www.youtube.com/watch?v=bYvG-YEQyTs"><span className="span_grey"> Click here to see a sneak peak of it :) </span></a> <br /> <br />
+                    <span className="span_p">Now writing my </span><span className="span_bold">master's thesis about</span><a href="https://drive.google.com/file/d/15sId83Mw8XTa12FsdUuRv0LC3FlIbGMY/view?usp=sharing"><span className="span_grey"> trust in autonomous vehicles </span></a><span className="span_p"> at Umeå Institute of Design</span> <br />
+                    <br /><a href="https://drive.google.com/file/d/1qkCIlb49lhPNz1q0DCDTboRJdSMdca2_/view?usp=sharing"><span className="span_grey">Click here for my CV.</span></a> <br />
+                    <br /><br /><br /><hr />
                  </div>          
              </div>
         </div>
-
-        <div className="container topwork">
-             <div className="semi_title edu">
-                <span className="span_semititle">TOP WORKS</span>
-            </div>
-            <div className="content_2">
-                <Link to="/joul" className="nav-link" >
-                <div className="topwork_1">
-                    <img className="work_img" src={"./images/about/landing_work_1.jpg"} /> <br /><br />
-                    <span className="span_jobtitle">JOUL,  </span>
-                    <span className="span_job">a toy for exploring sustainability</span> <br />
+        
+        <div className="container">
+            <div className="content">
+                <div className="empty"></div>
+                <div className="textcontent"> 
+                    <span className="span_semititle">I WAS WORKING AT</span> <br /> <br />
+                    <div className="span_p2"><img class="img_logo" src={"./images/about/philips.png"} />   as a UX design intern at Amsterdam</div>
+                     <div className="span_p2"><img class="img_logo_2" src={"./images/about/amorepacific.png"} />   as a visual design intern at Seoul</div> 
+                     <div className="span_p2"><img class="img_logo_2" src={"./images/about/brandazine.png"} />   as a product designer at Seoul</div> 
+                     <div className="span_p2"><img class="img_logo" src={"./images/about/frum.png"} />   as a UX consultant intern and freelancer at Seoul</div> <br />
                 </div>
-                </Link>
-                <Link to="/seam" className="nav-link" >
-                <div className="topwork_2">
-                    <img className="work_img" src={"./images/about/landing_work_2.jpg"} /> <br /><br />
-                    <span className="span_jobtitle">SEAM,   </span>
-                    <span className="span_job">connecting Alzheimer's individuals</span> <br />
-                </div>
-                </Link>
-                <Link to="/hera" className="nav-link" >
-                <div className="topwork_3">
-                    <img className="work_img" src={"./images/about/landing_work_3.jpg"} /> <br /><br />
-                    <span className="span_jobtitle">HERA,   </span> 
-                    <span className="span_job">digital visual storytelling</span> <br />
-                </div>
-                </Link>
             </div>
         </div>
+        <br /> 
+        <div className="container">
+            <div className="content">
+                <div className="empty"></div>
+                <div className="textcontent"> 
+                    <span className="span_semititle">I'M STUDYING AT</span> <br /> <br />
+                    <div className="span_p2">Umea Institute of Design in Interaction Design Master's</div>
+                     <div className="span_p2">Yonsei University in Information and Interaction Desgn Bachelor's</div> 
+                </div>
+            </div>
+        </div>
+        <br />
+        <div className="container">
+            <div className="content">
+                <div className="empty"></div>
+                <div className="textcontent"> 
+                    <span className="span_semititle">SOME AWARDS I RECEIVED ARE</span> <br /> <br />
+                    <img class="img_logo award" src={"./images/about/iF_1.png"} /> 
+                    <img class="img_logo award" src={"./images/about/iF_2.png"} /> 
+                    <img class="img_logo award" src={"./images/about/IxDA.png"} /> 
+                    <img class="img_logo_3 award" src={"./images/about/UX.png"} /> 
+                    <img class="img_logo_4" src={"./images/about/Core.png"} /> 
+                </div>
+            </div>
+        </div>
+<br /> <br />
+        <div className="container">
+            <div className="content">
+                <div className="empty"></div>
+                <div className="textcontent"> 
+                    <span className="span_semititle">FEEL FREE TO REACH OUT TO ME FOR ANYTHING :)</span>
+                </div>
+            </div>
+        </div>
+
         
-        <div className="container work">
+        {/* <div className="container work">
             <div className="semi_title edu">
                 <span className="span_semititle">WORK</span>
             </div>
@@ -96,9 +121,9 @@ function HeroContent({
                     <span className="span_date">20.06 - 10</span> <br />
                 </div>
              </div>
-        </div>
+        </div> */}
 
-        <div className="container">
+        {/* <div className="container">
             <div className="semi_title edu">
                 <span className="span_semititle">EDUCATION</span>
             </div>
@@ -127,10 +152,9 @@ function HeroContent({
                     <span className="span_date">15. 03 - 19. 02</span>
                 </div>
              </div>
-        </div>
+        </div> */}
 
-        <div className="container">
-            <div className="semi_title awards">
+            {/* <div className="semi_title awards">
                 <span className="span_semititle">AWARDS</span>
             </div>
             <Link to="/seam" className="nav-link" >
@@ -210,8 +234,7 @@ function HeroContent({
                 <div className="datecontent">
                     <img class="img_logo" src={"./images/about/IxDA.png"} />
                 </div>
-             </div>
-        </div>
+             </div> */}
 
         <div className="footer"></div>
 

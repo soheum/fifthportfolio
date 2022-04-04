@@ -1,7 +1,7 @@
 export const homeObjOne = {
-  h1_headline: 'Hello, My name is Soheum',
+  h1_headline: '',
   h2_text:
-    'Try pronouncing as So... hmmm.....'
+    ''
 };
 
 export const homeObjTwo = {
