@@ -111,21 +111,21 @@ function WorkContent(){
             </Link>
          </div>
          <div className="work2 ">
-         <a href="https://www.trapeza.finance/">
+         <Link to="/trapeza" className="nav-link" onClick={closeMobileMenu}>
                <div className="span_title_2">
                     <span className="span_jobtitle">TRAPEZA<br /></span>
                     <span className="span_job">branding for Olympus DAO DeFi platform</span>
                 </div>
                 <img className="work_img_2" src={"./images/about/work_trapeza.jpg"} />
-        </a>
+        </Link>
          </div>
          <div className="work3">
-         <a href="https://qcells.com/ane/stay-in-the-loop/eco-charged-community/stories">
+            <Link to="/qcells" className="nav-link" onClick={closeMobileMenu}>
                 <span className="span_jobtitle">Q-CELLS GLOBAL WEBSITE<br /></span>
                 <span className="span_job">video filming and content creation</span>
                 <img className="work_img_3" src={"./images/about/work_qcells.jpg"} />
-                </a>
-         </div>
+             </Link>
+        </div>
         </div>
 
         <div className="footer"></div>

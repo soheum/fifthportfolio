@@ -52,15 +52,15 @@ export const WorkOne = {
   };
 
   export const WorkEight = {
-    cover_img: "./images/hera/cover.jpg",
-    info_1: 'branding done for a new DeFi app platform called Trapeza, being responsible for creating an initial brand identity with considering the possibility of brand expansion to N',
+    cover_img: "./images/trapeza/cover.jpg",
+    info_1: 'branding done for a new DeFi app platform called Trapeza, being responsible for creating an initial brand identity with considering the possibility of brand expansion to NFTs',
     info_2: 'Graphic Design, Branding',
     info_3: 'Photoshop, Illustrator, After Effects'
   };
 
   export const WorkNine = {
     cover_img: "./images/qcells/cover.jpg",
-    info_1: 'as part of working as a freelance UX designer at FRUM, I was involvedd in creating user stories for Hanwha Q-CELLS global website by video filming and home visit interviews at Portland and Raleigh Durham',
+    info_1: 'as part of working as a freelance UX designer at FRUM, I was involved in creating user stories for Hanwha Q-CELLS global website by video filming and home visit interviews at Portland and Raleigh Durham',
     info_2: 'User Research (Home Visit Interviews), Video Storytelling',
     info_3: 'User Interview Techniques, Participatory Design, Video Directing'
   };

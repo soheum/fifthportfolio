@@ -1,0 +1,29 @@
+.emphasize_qcells{
+    font-weight: 800;
+  font-style: italic;
+  font-family: "Tinos", serif;
+  color: #232820;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  }
+
+  .joul_img2{
+    max-width: 80%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  a{
+    font-weight: 300;
+  font-style: italic;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #232820;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 1.5;
+  }
+  a:hover{
+      cursor: pointer;
+  }

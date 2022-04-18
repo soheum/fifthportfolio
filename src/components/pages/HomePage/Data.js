@@ -61,7 +61,7 @@ export const workObjEight = {
 export const workObjNine = {
   h1_headline: 'Q-Cells global website',
   h2_text:
-    "video filming and content creation"
+    "video filming and digital content creation"
 };
 
 // export const heroObjOne = {

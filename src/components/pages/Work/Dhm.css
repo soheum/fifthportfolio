@@ -20,5 +20,19 @@
   font-size: 18px;
   letter-spacing: 1px;
   line-height: 1.5;
-
+}
+#dhm_question{
+  background-color: #BFC4C8;
+}
+.container_question_dhm{
+  background-color: #BFC4C8;
+}
+.emphasize_dhm{
+  color: #3A1EE4;
+  font-weight: 800;
+  font-style: italic;
+  font-family: "Tinos", serif;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
 }
