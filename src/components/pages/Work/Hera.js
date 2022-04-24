@@ -48,7 +48,6 @@ function Hera() {
             <div className="container_keycomponent">
                 <div className="discover_interview">
                     <span className="question_title_hera">INSTAGRAM STORY</span>
-                    {/* <span className="content_text_hera">Signia is Hera's premium skin care line.</span> <br />  */}
                 </div>
                 <div className="discover_interview_rt"></div>
             </div>

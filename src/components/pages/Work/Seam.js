@@ -23,8 +23,7 @@ function Seam() {
             <div className="container_question_seam">
                 <span className="question">How might we promote </span>
                 <span className="emphasize_seam">remote togetherness</span> <br />
-                <span className="question">between users with Alzheimer's and their loved ones?</span> <br />
-                
+                <span className="question">between users with Alzheimer's and their loved ones?</span> <br />    
             </div>
             <div className="container player-wrapper">
                 <ReactPlayer className="react-player" width="100%" height="100%" url="https://youtu.be/02rI5oau75U" />
