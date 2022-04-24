@@ -19,7 +19,7 @@ function HeroContent({
                 <div className="empty">
                     <div className="intro_img">
                         <div className="container player-wrapper">
-                            <ReactPlayer className="react-player video-right" width="130%" height="130%" url={myVideo} playing={true} loop={true} /> 
+                            <ReactPlayer className="react-player video-right" width="130%" height="130%" url={myVideo} controls={false} muted={true} playing={true} loop={true} /> 
                         </div>
                     </div>
                 </div>
