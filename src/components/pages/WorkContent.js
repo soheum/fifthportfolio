@@ -36,6 +36,13 @@ function WorkContent(){
         </div>
 
         <div className="container worklist">
+         <div className="work3">
+         <a href="https://www.uid.umu.se/en/uid22/project-gallery/ixd/soheum-hwang/">
+                <span className="span_jobtitle">FiDO<br /></span>
+                <span className="span_job">autonomy / trust in semi-autonomous vehicles</span>
+                <img className="work_img_3" src={"./images/about/work_thesis.jpg"} />
+                </a>  
+         </div>
          <div className="work1">
             <Link to="/joul" className="nav-link" onClick={closeMobileMenu}>
                 <span className="span_jobtitle">JOUL<br /></span>
@@ -52,13 +59,6 @@ function WorkContent(){
                 </div>
                 <img className="work_img_2" src={"./images/about/work_seam.jpg"} />
             </Link>
-         </div>
-         <div className="work3">
-         <a href="https://drive.google.com/file/d/15sId83Mw8XTa12FsdUuRv0LC3FlIbGMY/view?usp=sharing">
-                <span className="span_jobtitle">AUTONOMY / TRUST IN SELF-DRIVING<br /></span>
-                <span className="span_job">master thesis in collab with Volvo Cars</span>
-                <img className="work_img_3" src={"./images/about/work_thesis.jpg"} />
-                </a>  
          </div>
         </div>
 
