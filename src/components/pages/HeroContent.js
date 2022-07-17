@@ -25,7 +25,7 @@ function HeroContent({
                 </div>
                  <div className="textcontent">
                     <span className="span_p_sm">Currently finished </span>
-                    <a href="https://drive.google.com/file/d/15sId83Mw8XTa12FsdUuRv0LC3FlIbGMY/view?usp=sharing"><span className="span_grey">my master's thesis at Umeå Institute of Design</span></a>
+                    <a href="https://drive.google.com/file/d/15sId83Mw8XTa12FsdUuRv0LC3FlIbGMY/view?usp=sharing"><span className="span_grey">master's thesis at Umeå Institute of Design</span></a>
                     <span className="span_p_sm"> about autonomy and trust in self-driving vehicles in collaboration with Volvo Cars. Previously, I was working in these places: </span>
                     <a href="https://www.philips.com/global"><span className="span_grey">Philips,</span> </a>
                     <a href="https://www.apgroup.com/int/en/"><span className="span_grey">Amorepacific,</span></a>
